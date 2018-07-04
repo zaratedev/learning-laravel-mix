@@ -1,9 +1,16 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+$primary: #212121;
 
-// Variables
-@import "variables";
+body {
+  background-color: $primary;
+}
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+#thing {
+  transition: all 1s;
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0%;
+  }
+}
