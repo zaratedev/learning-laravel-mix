@@ -1,16 +1,4 @@
-import Notification from './components/Notification.vue';
+class Person {
 
-import Vue from 'vue';
-
-new Vue({
-    el: "#app",
-    components: {
-        Notification
-    }
-});
-
-alert('Hey!');
-alert('Hey!');
-alert('Hey!');
-alert('Hey!');
-alert('Hey!');
+    foo = 'bar';
+}
