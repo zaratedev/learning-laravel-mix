@@ -1,3 +1,10 @@
-import Notification from './components/Notification';
+import Notification from './components/Notification.vue';
 
-new Notification('Hola mundo').asAlert();
+import Vue from 'vue';
+
+new Vue({
+    el: "#app",
+    components: {
+        Notification
+    }
+});
