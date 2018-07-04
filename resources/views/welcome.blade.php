@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
+        <h1>My Website</h1>
 
+
+        <scrip src="js/app.js"></scrip>
     </body>
 </html>
