@@ -1,14 +1,8 @@
 let mix = require('laravel-mix');
 
-mix.extend('foobar', (webpackConfig, ...args) => {
-
-    webpackConfig.resolve.extensions.push('.assds');
-
-    console.log(args);
-});
-
+require('./laravel-mix-tailwind');
 
 mix
     .js('resources/assets/js/app.js', 'js')
-    .sass('resources/assets/sass/app.scss', 'css')
-    .foobar('path/to/file.js');
+    .less('resources/assets/less/app.less', 'css')
+    .tailwind();
