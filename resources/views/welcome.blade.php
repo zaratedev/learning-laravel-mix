@@ -9,12 +9,12 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     </head>
     <body>
         <h1>My Website</h1>
 
 
-        <scrip src="js/app.js"></scrip>
+        <scrip src="{{ mix('/js/app.js') }}"></scrip>
     </body>
 </html>

@@ -8,3 +8,9 @@ new Vue({
         Notification
     }
 });
+
+alert('Hey!');
+alert('Hey!');
+alert('Hey!');
+alert('Hey!');
+alert('Hey!');
