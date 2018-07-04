@@ -1,0 +1,7 @@
+a {
+    color: blue;
+
+    & span {
+          color: #000;
+      }
+}

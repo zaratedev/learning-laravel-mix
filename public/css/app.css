@@ -1,17 +1,6 @@
-body {
-  background-color: #212121;
+a {
+    color: blue
 }
-#thing {
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-@-webkit-keyframes fade {
-  50% {
-    opacity: 0%;
-  }
-}
-@keyframes fade {
-  50% {
-    opacity: 0%;
-  }
+a span {
+    color: #000;
 }

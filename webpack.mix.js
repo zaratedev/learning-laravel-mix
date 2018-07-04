@@ -11,4 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.less('resources/assets/less/app.less', 'public/css');
+mix.postCss('resources/assets/css/app.css', 'public/css', [
+    require('postcss-cssnext'),
+
+    require('postcss-sorting')({
+        'properties-order': 'alphabetical'
+    })
+]);

@@ -1,16 +1,5 @@
-
-$primary: #212121;
-
 body {
-  background-color: $primary;
-}
-
-#thing {
-  transition: all 1s;
-}
-
-@keyframes fade {
-  50% {
-    opacity: 0%;
-  }
+  margin: 2em;
+  color: #3097D1;
+  z-index: auto;
 }
