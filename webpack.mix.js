@@ -11,4 +11,4 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('resources/assets/sass/app.scss', 'public/css');
+mix.less('resources/assets/less/app.less', 'public/css');
