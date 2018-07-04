@@ -15,6 +15,6 @@
         <h1>My Website</h1>
 
 
-        <scrip src="{{ mix('/js/app.js') }}"></scrip>
+        <script src="{{ mix('/js/app.js') }}"></script>
     </body>
 </html>
